@@ -1,0 +1,7 @@
+Pendahuluan :
+	Pakaian adalah suatu kebutuhan yang penting bagi manusia. selain untuk sebgai pelindung tubuh, pakaian juga berguna sebagai identitas seseorang. Kebutuhan akan pakaian semakin hari semakin bertambah, tetapi waktu luang yang ada untuk membeli pakaian semakin berkurang.
+	Oleh karena itu sebagai solusi dari permasalahan tersebut dibuatlah toko online sebagai solusi. Toko online menjadi solusi yang tepat karena bisa dilakukan kapan saja tanpa harus khawatir toko tutup, bisa diakses dari mana selama ada smartphone dan internet,  ...(isi yang lainnya)... serta keuntungan-keuntungan lainnya.
+
+
+Ruang Lingkup :
+	Pembahasan ini dibatasi oleh pembuatan website dan fitur-fiturnya yaitu pengelolaan produk, keranjang belanja,  pembelian produk
