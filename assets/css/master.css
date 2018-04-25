@@ -155,13 +155,13 @@ a:hover {text-decoration: none !important;}
   color: #777;
 }
 
-.add-cart button {
+.btn-custom {
   background-color: #F5AB35;
   color: #fff;
   border-color: #F39C12;
 }
 
-.add-cart button:hover {
+.btn-custom:hover {
   background-color: #D35400;
   color: #fff;
 }
@@ -177,5 +177,54 @@ a:hover {text-decoration: none !important;}
 footer {
     background: #333;
     color:  #fff;
-    padding: 20px;
+    padding: 23px;
+}
+
+.padd-70{
+	padding: 70px 0;
+}
+
+.img {
+	width: 100%;
+	height: auto !important;
+}
+.padd-80 {
+	padding : 80px 0;
+}
+
+.action-panel {
+	padding: 20px 0;
+}
+
+.full-height {
+	height: 90vh;
+}
+
+.mar-10 {
+	margin: 10px 0;
+}
+
+.padd-10 {
+	padding: 10px;
+}
+
+.detail-panel {
+	padding: 30px 50px;
+}
+
+@media (max-width: 992px) {
+	.product-image{
+		height: 100%;
+		text-align: center;
+		margin: 20px 0;
+	}
+
+	.product-image img{
+		width: 50%;
+	}
+}
+
+
+.padd-100 {
+	padding: 100px 0;
 }

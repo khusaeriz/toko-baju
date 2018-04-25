@@ -33,7 +33,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="?page=logout">
+				<a href="login.html">
 					<i class="fa fa-angle-right "></i>
 					Keluar
 				</a>

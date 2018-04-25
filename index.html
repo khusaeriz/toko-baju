@@ -2,202 +2,199 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>Toko Baju</title>
+	<meta charset="utf-8">
+	<title>Toko Baju</title>
 
-  <link rel="stylesheet" href="assets/css/master.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script src="assets/js/jquery.min.js" charset="utf-8"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="assets/css/master.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.css">
+
+	<script src="assets/js/jquery.min.js" charset="utf-8"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
 </head>
 
 <body>
-  <div class="header">
-    <div class="container">
-      <nav class="navbar navbar-expand-sm -bg-light">
-        <ul class="navbar-nav mr-auto">
-          <li>
-            <a href="#">Logoo</a>
-          </li>
-        </ul>
+	<div class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-sm">
+				<ul class="navbar-nav mr-auto">
+					<li>
+						<a href="#">Logoo</a>
+					</li>
+				</ul>
 
-        <ul class="navbar-nav ml-auto">
-          <!-- Dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                Jenis Pakaian
+				<ul class="navbar-nav ml-auto">
+					<!-- Dropdown -->
+					<li class="nav-item w400px">
+						<form class="form-inline" action="/action_page.php">
+							<div class="input-group col-lg-12">
+								<input type="text" class="form-control input-search" placeholder="Cari baju...">
+								<div class="input-group-append">
+									<button class="btn btn-dark btn-search" type="button"><i class="fas fa-search"></i></button>
+								</div>
+							</div>
+						</form>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Kategori Pakaian
               </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Baju</a>
-              <a class="dropdown-item" href="#">Kemeja</a>
-              <a class="dropdown-item" href="#">Kaus</a>
-              <a class="dropdown-item" href="#">Celana</a>
-              <a class="dropdown-item" href="#">Rok</a>
-            </div>
-          </li>
-          <li class="nav-item w400px">
-            <form class="form-inline" action="/action_page.php">
-              <div class="input-group col-lg-12">
-                <input type="text" class="form-control input-search" placeholder="Cari baju...">
-                <div class="input-group-append">
-                  <button class="btn btn-dark btn-search" type="button"><i class="fas fa-search"></i></button>
-                </div>
-              </div>
-            </form>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Baju</a>
+							<a class="dropdown-item" href="#">Kemeja</a>
+							<a class="dropdown-item" href="#">Kaus</a>
+							<a class="dropdown-item" href="#">Celana</a>
+							<a class="dropdown-item" href="#">Rok</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
                 <i class="fas fa-shopping-cart"></i>
               </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Masuk</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Daftar</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-  <div class="banner">
-    <div class="banner-text">
-      <h1>Pilih Baju Favoritmu</h1>
-    </div>
-  </div>
-  <div class="lead">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4 border ">
-          <a href="#">
-            <div class="lead-item text-center" style="background-image: url('assets/images/icon/shirt-t.png');">
-              <span>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="banner-text">
+			<h1>Pilih Baju Favoritmu</h1>
+		</div>
+	</div>
+	<div class="lead">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4 border ">
+					<a href="#">
+						<div class="lead-item text-center" style="background-image: url('assets/images/icon/shirt-t.png');">
+							<span>
                 Kemeja
               </span>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 border " >
-          <a href="#">
-            <div class="lead-item text-center"  style="background-image: url('assets/images/icon/desc-kaos.png');">
-              <span>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 border ">
+					<a href="#">
+						<div class="lead-item text-center" style="background-image: url('assets/images/icon/desc-kaos.png');">
+							<span>
                 Kaus
               </span>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 border ">
-          <a href="#">
-            <div class="lead-item text-center"  style="background-image: url('assets/images/icon/desc-kaos.png');">
-              <span>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 border ">
+					<a href="#">
+						<div class="lead-item text-center" style="background-image: url('assets/images/icon/desc-kaos.png');">
+							<span>
                 Jaket
               </span>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <div class="content-container">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-12">
-          <div class="title-content">
-            <h2>Daftar Baju</h2>
-          </div>
-        </div>
-        <div class="col-md-3 product">
-          <div class="badge badge-warning badge-custom">Diskon</div>
-          <div class="product-image">
-            <a href="#">
+	<div class="content-container">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-12">
+					<div class="title-content">
+						<h2>Daftar Baju</h2>
+					</div>
+				</div>
+				<div class="col-md-3 product">
+					<div class="badge badge-warning badge-custom">Diskon</div>
+					<div class="product-image">
+						<a href="detail.html">
                 <img src="assets/images/waw.jpg"/>
             </a>
-          </div>
-          <div class="product-desc">
-            <div class="product-title ">
-              <a href="#">Baju bagus</a>
-            </div>
-            <div class="product-price">
-              <span>Rp. 1.000.000.000</span>
-              <div class="discount">Rp. 20.000</div>
-            </div>
-          </div>
-          <div class="add-cart text-center">
-            <button class="btn btn-block">
-            Tambah ke keranjang</button>
-          </div>
-        </div>
-        <div class="col-md-3 product">
-          <div class="product-image">
-            <a href="#">
+					</div>
+					<div class="product-desc">
+						<div class="product-title ">
+							<a href="detail.html">Baju bagus</a>
+						</div>
+						<div class="product-price">
+							<span>Rp. 1.000.000.000</span>
+							<div class="discount">Rp. 20.000</div>
+						</div>
+					</div>
+					<div class="add-cart text-center">
+						<a href="keranjang.html" class="btn btn-block btn-custom">
+							Tambah ke keranjang
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 product">
+					<div class="product-image">
+						<a href="#">
                 <img src="assets/images/waw.jpg">
             </a>
-          </div>
-          <div class="product-desc">
-            <div class="product-title ">
-              <a href="#">Baju bagus</a>
-            </div>
-            <div class="product-price">
-              <span>Rp. 1.000.000.000</span>
-              <div class="discount">Rp. 20.000</div>
-            </div>
-          </div>
-          <div class="add-cart text-center">
-            <button class="btn btn-block">
+					</div>
+					<div class="product-desc">
+						<div class="product-title ">
+							<a href="#">Baju bagus</a>
+						</div>
+						<div class="product-price">
+							<span>Rp. 1.000.000.000</span>
+							<div class="discount">Rp. 20.000</div>
+						</div>
+					</div>
+					<div class="add-cart text-center">
+						<button class="btn btn-block">
             Tambah ke keranjang</button>
-          </div>
-        </div>
-        <div class="col-md-3 product">
-          <div class="badge badge-custom badge-danger">Terlaris</div>
-          <div class="product-image">
-            <a href="#">
+					</div>
+				</div>
+				<div class="col-md-3 product">
+					<div class="badge badge-custom badge-danger">Terlaris</div>
+					<div class="product-image">
+						<a href="#">
                 <img src="assets/images/waw.jpg">
             </a>
-          </div>
-          <div class="product-desc">
-            <div class="product-title ">
-              <a href="#">Baju bagus</a>
-            </div>
-            <div class="product-price">
-              <span>Rp. 1.000.000.000</span>
-              <div class="discount">Rp. 20.000</div>
-            </div>
-          </div>
-          <div class="add-cart text-center">
-            <button class="btn btn-block">
+					</div>
+					<div class="product-desc">
+						<div class="product-title ">
+							<a href="#">Baju bagus</a>
+						</div>
+						<div class="product-price">
+							<span>Rp. 1.000.000.000</span>
+							<div class="discount">Rp. 20.000</div>
+						</div>
+					</div>
+					<div class="add-cart text-center">
+						<button class="btn btn-block">
             Tambah ke keranjang</button>
-          </div>
-        </div>
-        <div class="col-md-3 product">
-          <div class="product-image">
-            <a href="#">
+					</div>
+				</div>
+				<div class="col-md-3 product">
+					<div class="product-image">
+						<a href="#">
                 <img src="assets/images/waw.jpg"/>
             </a>
-          </div>
-          <div class="product-desc">
-            <div class="product-title ">
-              <a href="#">Baju bagus</a>
-            </div>
-            <div class="product-price">
-              <span>Rp. 1.000.000.000</span>
-              <div class="discount">Rp. 20.000</div>
-            </div>
-          </div>
-          <div class="add-cart text-center">
-            <button class="btn btn-block">
+					</div>
+					<div class="product-desc">
+						<div class="product-title ">
+							<a href="#">Baju bagus</a>
+						</div>
+						<div class="product-price">
+							<span>Rp. 1.000.000.000</span>
+							<div class="discount">Rp. 20.000</div>
+						</div>
+					</div>
+					<div class="add-cart text-center">
+						<button class="btn btn-block">
             Tambah ke keranjang</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <footer class="text-center">
-
-  </footer>
+	<footer class="text-center">
+		this is footer
+	</footer>
 </body>
 <script type="text/javascript" src="assets/js/helper.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>

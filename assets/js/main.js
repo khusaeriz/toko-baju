@@ -14,6 +14,5 @@ $(document).ready(function() {
 			setCookie('cart', JSON.stringify(cookies_data), 30)
 		}
 	});
-
 	console.log(getCookie('cart'));
 });

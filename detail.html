@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+
+	<link rel="stylesheet" href="assets/css/master.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.css">
+
+</head>
+
+<body>
+	<div class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-sm">
+				<ul class="navbar-nav mr-auto">
+					<li>
+						<a href="#">Logoo</a>
+					</li>
+				</ul>
+
+				<ul class="navbar-nav ml-auto">
+					<!-- Dropdown -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Jenis Pakaian
+              </a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Baju</a>
+							<a class="dropdown-item" href="#">Kemeja</a>
+							<a class="dropdown-item" href="#">Kaus</a>
+							<a class="dropdown-item" href="#">Celana</a>
+							<a class="dropdown-item" href="#">Rok</a>
+						</div>
+					</li>
+					<li class="nav-item w400px">
+						<form class="form-inline" action="/action_page.php">
+							<div class="input-group col-lg-12">
+								<input type="text" class="form-control input-search" placeholder="Cari baju...">
+								<div class="input-group-append">
+									<button class="btn btn-dark btn-search" type="button"><i class="fas fa-search"></i></button>
+								</div>
+							</div>
+						</form>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Masuk</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Daftar</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="container padd-80 full-height">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">Toko Baju</a></li>
+				<li class="breadcrumb-item"><a href="#">Produk</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Baju Bagus</li>
+			</ol>
+		</nav>
+		<div class="product-details row">
+			<div class="col-lg-3">
+				<div class="product-image">
+					<img src="assets/images/waw.jpg" class="img img-thumbnail">
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="product-description">
+					<div class="product-title">
+						<h3>Baju Bagus</h3>
+					</div>
+					<div class="product-price">
+						Rp. 12.000
+					</div>
+				</div>
+				<div class="desc">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div>
+			<div class="col-lg-3 border">
+				<div class="action-panel">
+					<div class="size row">
+						<div class="col-lg-12">
+							<p>Pilih Ukuran : </p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col text-center">
+							<label class="radio-inline">
+								<input type="radio" name="optradio">XL
+							</label>
+						</div>
+						<div class="col text-center">
+							<label class="radio-inline">
+								<input type="radio" name="optradio">L
+							</label>
+						</div>
+						<div class="col text-center">
+							<label class="radio-inline">
+								<input type="radio" name="optradio">M
+							</label>
+						</div>
+						<div class="col text-center">
+							<label class="radio-inline">
+								<input type="radio" name="optradio">S
+							</label>
+						</div>
+					</div>
+					<div class="row mar-10">
+						<div class="col-sm-4">
+							<label><span class="align-middle">Jumlah :</span></label>
+						</div>
+						<div class="col-sm-4 float-right">
+							<select class="form-control">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+						</div>
+					</div>
+				</div>
+				<a class="btn btn-block btn-primary" href="keranjang.html">Tambah Ke Keranjang</a>
+			</div>
+		</div>
+	</div>
+	<footer class="text-center"> this is spartaaaaaaaa!!!!</footer>
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.js"></script>
+<script src="assets/js/main.js"></script>
+
+</html>
