@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Keranjang Belanja</title>
+
+	<link rel="stylesheet" href="assets/css/master.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.css">
+</head>
+
+<body>
+
+	<div class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-sm">
+				<ul class="navbar-nav mr-auto">
+					<li>
+						<a href="#">Logoo</a>
+					</li>
+				</ul>
+
+				<ul class="navbar-nav ml-auto">
+					<!-- Dropdown -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Jenis Pakaian
+              </a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Baju</a>
+							<a class="dropdown-item" href="#">Kemeja</a>
+							<a class="dropdown-item" href="#">Kaus</a>
+							<a class="dropdown-item" href="#">Celana</a>
+							<a class="dropdown-item" href="#">Rok</a>
+						</div>
+					</li>
+					<li class="nav-item w400px">
+						<form class="form-inline" action="/action_page.php">
+							<div class="input-group col-lg-12">
+								<input type="text" class="form-control input-search" placeholder="Cari baju...">
+								<div class="input-group-append">
+									<button class="btn btn-dark btn-search" type="button"><i class="fas fa-search"></i></button>
+								</div>
+							</div>
+						</form>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Masuk</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Daftar</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="container padd-100 full-height">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">Toko Baju</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Keranjang</li>
+			</ol>
+		</nav>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="detail-panel">
+					<div><b>Filter</b></div>
+					<hr>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="radio" class="form-check-input" name="optradio">Baju
+						</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="radio" class="form-check-input" name="optradio">Kemeja
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="radio" class="form-check-input" name="optradio">Kaus
+						</label>
+					</div>
+
+					<div><button class="btn btn-primary btn-block">Simpan</button></div>
+				</div>
+			</div>
+			<div class="daftar-produk col-lg-8">
+				<div class="row">
+					<div class="col-md-4 product">
+						<div class="badge badge-warning badge-custom">Diskon</div>
+						<div class="product-image">
+							<a href="detail.html">
+                <img src="assets/images/waw.jpg"/>
+            </a>
+						</div>
+						<div class="product-desc">
+							<div class="product-title ">
+								<a href="detail.html">Baju bagus</a>
+							</div>
+							<div class="product-price">
+								<span>Rp. 1.000.000.000</span>
+								<div class="discount">Rp. 20.000</div>
+							</div>
+						</div>
+						<div class="add-cart text-center">
+							<a href="keranjang.html" class="btn btn-block btn-custom">
+							Tambah ke keranjang
+						</a>
+						</div>
+					</div>
+					<div class="col-md-4 product">
+						<div class="badge badge-warning badge-custom">Diskon</div>
+						<div class="product-image">
+							<a href="detail.html">
+                <img src="assets/images/waw.jpg"/>
+            </a>
+						</div>
+						<div class="product-desc">
+							<div class="product-title ">
+								<a href="detail.html">Baju bagus</a>
+							</div>
+							<div class="product-price">
+								<span>Rp. 1.000.000.000</span>
+								<div class="discount">Rp. 20.000</div>
+							</div>
+						</div>
+						<div class="add-cart text-center">
+							<a href="keranjang.html" class="btn btn-block btn-custom">
+							Tambah ke keranjang
+						</a>
+						</div>
+					</div>
+					<div class="col-md-4 product">
+						<div class="badge badge-warning badge-custom">Diskon</div>
+						<div class="product-image">
+							<a href="detail.html">
+                <img src="assets/images/waw.jpg"/>
+            </a>
+						</div>
+						<div class="product-desc">
+							<div class="product-title ">
+								<a href="detail.html">Baju bagus</a>
+							</div>
+							<div class="product-price">
+								<span>Rp. 1.000.000.000</span>
+								<div class="discount">Rp. 20.000</div>
+							</div>
+						</div>
+						<div class="add-cart text-center">
+							<a href="keranjang.html" class="btn btn-block btn-custom">
+							Tambah ke keranjang
+						</a>
+						</div>
+					</div>
+					<div class="col-md-4 product">
+						<div class="badge badge-warning badge-custom">Diskon</div>
+						<div class="product-image">
+							<a href="detail.html">
+                <img src="assets/images/waw.jpg"/>
+            </a>
+						</div>
+						<div class="product-desc">
+							<div class="product-title ">
+								<a href="detail.html">Baju bagus</a>
+							</div>
+							<div class="product-price">
+								<span>Rp. 1.000.000.000</span>
+								<div class="discount">Rp. 20.000</div>
+							</div>
+						</div>
+						<div class="add-cart text-center">
+							<a href="keranjang.html" class="btn btn-block btn-custom">
+							Tambah ke keranjang
+						</a>
+						</div>
+					</div>
+					<div class="col-md-4 product">
+						<div class="badge badge-warning badge-custom">Diskon</div>
+						<div class="product-image">
+							<a href="detail.html">
+                <img src="assets/images/waw.jpg"/>
+            </a>
+						</div>
+						<div class="product-desc">
+							<div class="product-title ">
+								<a href="detail.html">Baju bagus</a>
+							</div>
+							<div class="product-price">
+								<span>Rp. 1.000.000.000</span>
+								<div class="discount">Rp. 20.000</div>
+							</div>
+						</div>
+						<div class="add-cart text-center">
+							<a href="keranjang.html" class="btn btn-block btn-custom">
+							Tambah ke keranjang
+						</a>
+						</div>
+					</div>
+					<div class="col-md-4 product">
+						<div class="badge badge-warning badge-custom">Diskon</div>
+						<div class="product-image">
+							<a href="detail.html">
+                <img src="assets/images/waw.jpg"/>
+            </a>
+						</div>
+						<div class="product-desc">
+							<div class="product-title ">
+								<a href="detail.html">Baju bagus</a>
+							</div>
+							<div class="product-price">
+								<span>Rp. 1.000.000.000</span>
+								<div class="discount">Rp. 20.000</div>
+							</div>
+						</div>
+						<div class="add-cart text-center">
+							<a href="keranjang.html" class="btn btn-block btn-custom">
+							Tambah ke keranjang
+						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

@@ -4,6 +4,13 @@ color :
 	#20c997
 */
 
+.padd-100 {
+	padding: 100px 0;
+}
+
+.mh-80 {
+	min-height: 80px;
+}
 
 a:hover {text-decoration: none !important;}
 
@@ -129,7 +136,8 @@ a:hover {text-decoration: none !important;}
 }
 
 .product-image img {
-  height: 100%
+  height: 100%;
+	width: 100%;
 }
 
 .product-desc {
@@ -212,6 +220,10 @@ footer {
 	padding: 30px 50px;
 }
 
+.nav-small {
+	display: none !important;
+}
+
 @media (max-width: 992px) {
 	.product-image{
 		height: 100%;
@@ -224,7 +236,8 @@ footer {
 	}
 }
 
-
-.padd-100 {
-	padding: 100px 0;
+@media (max-width: 767px) {
+	.nav-big {
+		display: none !important;
+	}
 }
