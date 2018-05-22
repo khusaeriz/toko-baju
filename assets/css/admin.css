@@ -75,7 +75,7 @@ a:hover {
 
 
 .login {
-	background-image: url('../images/bg.webp');
+	background-image: url('../../img/bg.webp');
 	background-size: cover;
 	min-height: 100vh;
 	padding: 100px;
