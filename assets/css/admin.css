@@ -38,6 +38,7 @@ a:hover {
 	color: #fff;
 	display: block;
 	padding: 7px;
+	-webkit-transition: .2s ease-in;
 	transition: .2s ease-in;
 }
 
