@@ -4,7 +4,7 @@
 
 <div class="table-container">
 	<div class="table-action text-right">
-		<a href="#" class="btn btn-primary">
+		<a href="?page=produk&action=tambah" class="btn btn-primary">
 			Tambah Produk
 		</a>
 	</div>

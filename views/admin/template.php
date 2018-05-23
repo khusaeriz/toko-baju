@@ -3,9 +3,9 @@
 <head>
 	<title>Admin</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/admin.css">
-	<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/font-awesome/css/fontawesome-all.min.css">
 </head>
 <body>
 <div class="side-container float-left">

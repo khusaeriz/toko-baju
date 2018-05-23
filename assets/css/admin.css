@@ -75,17 +75,17 @@ a:hover {
 
 
 .login {
-	background-image: url('../../img/bg.webp');
+	background-color: #eee;
 	background-size: cover;
 	min-height: 100vh;
 	padding: 100px;
 }
 
 .login-box {
-	background: rgba(0,0,0,0.4);
+	background: #2c3e50;
 	width: 700px;
 	margin: auto;
-	padding: 30px
+	padding: 80px 40px;
 }
 
 .login-text {
