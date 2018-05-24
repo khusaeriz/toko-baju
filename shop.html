@@ -17,6 +17,7 @@
 	<!-- js -->
 	<script src="dist/js/jquery.min.js" charset="utf-8"></script>
 	<script src="dist/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+	<script src="dist/js/jquery.translate.js"></script>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
 			<div class="row">
 				<div class="col-12 d-md-flex justify-content-between">
 					<div class="logo-area text-center">
-						<a href="index.html">
+						<a href="#">
 							<h3>Ridia</h3><span>Clothes Shop</span></a>
 					</div>
 					<div class="main-menu">
@@ -37,9 +38,30 @@
 
 							<div class="navbar-collapse align-items-start collapse" id="karl-navbar" style="">
 								<ul class="navbar-nav animated" id="nav">
-									<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-									<li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
-									<li class="nav-item"><a class="nav-link" href="cart.html"><i class='fa fa-shopping-cart'></i></a></li>
+									<li class="nav-item active">
+										<a class="nav-link" href="index.html">
+											<span class="trn">home</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="shop.html">
+											<span class="trn">shop</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link relative" href="cart.html">
+											<i class='fa fa-shopping-cart'></i>
+											<span style="    font-size: 11px;
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    background: #fff;
+    width: 15px;
+    border-radius: 15px;
+    color: #e74c3c;
+    text-align: center;">1</span>
+										</a>
+									</li>
 									<li class="nav-item">
 										<div class="input-group">
 											<input type="text" class="form-control form-no-border" placeholder="Find Clothes..." aria-label="Input group example" aria-describedby="btnGroupAddon">
@@ -61,28 +83,33 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-4">
 					<div class="filter filter-category">
-						<h5>Categories</h5>
+						<h5><span class="trn">category</span></h5>
 						<div class="categor-list">
 							<span class="category-item">
-								<label class="container-checkbox">Woman Wear
+								<label class="container-checkbox">
+									<span class="trn">woman_wear</span>
 								<input type="checkbox" checked="true">
 									<span class="checkmark"></span>
 							</label>
 							</span>
 							<span class="category-item">
-								<label class="container-checkbox">Man Wear
+								<label class="container-checkbox">
+									<span class="trn">man_wear</span>
 								<input type="checkbox" checked="true">
 									<span class="checkmark"></span>
 							</label>
 							</span>
 							<span class="category-item">
-								<label class="container-checkbox">Children
+								<label class="container-checkbox">
+									<span class="trn">childrens</span>
 								<input type="checkbox">
 									<span class="checkmark"></span>
 							</label>
 							</span>
 						</div>
-						<h5>Filter By Size </h5>
+						<h5>
+							<span class="trn">filter_by_size</span>
+						</h5>
 						<div class="filter-size">
 							<ul class="d-flex justify-content-between">
 								<li><a href="#">S</a></li>
@@ -105,10 +132,14 @@
 								</div>
 							</div>
 							<div class="product-description">
-								<h4 class="product-price">IDR 120.000,00</h4>
+								<h4 class="product-price">
+									<span class="trn">idr</span> 120.000,00
+								</h4>
 								<p>Boutique Silk Dress</p>
 								<!-- Add to Cart -->
-								<a href="#" class="add-to-cart-btn">ADD TO CART</a>
+								<a href="cart.html" class="add-to-cart-btn">
+									<span class="trn">add_to_cart</span>
+								</a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-sm-6 product">
@@ -121,10 +152,14 @@
 								</div>
 							</div>
 							<div class="product-description">
-								<h4 class="product-price">IDR 120.000,00</h4>
+								<h4 class="product-price">
+									<span class="trn">idr</span> 120.000,00
+								</h4>
 								<p>Jeans midi cocktail dress</p>
 								<!-- Add to Cart -->
-								<a href="#" class="add-to-cart-btn">ADD TO CART</a>
+								<a href="cart.html" class="add-to-cart-btn">
+									<span class="trn">add_to_cart</span>
+								</a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-sm-6 product">
@@ -137,10 +172,14 @@
 								</div>
 							</div>
 							<div class="product-description">
-								<h4 class="product-price">IDR 120.000,00</h4>
+								<h4 class="product-price">
+									<span class="trn">idr</span> 120.000,00
+								</h4>
 								<p>Homegirl dress</p>
 								<!-- Add to Cart -->
-								<a href="#" class="add-to-cart-btn">ADD TO CART</a>
+								<a href="cart.html" class="add-to-cart-btn">
+									<span class="trn">add_to_cart</span>
+								</a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-sm-6 product">
@@ -153,10 +192,14 @@
 								</div>
 							</div>
 							<div class="product-description">
-								<h4 class="product-price">IDR 120.000,00</h4>
+								<h4 class="product-price">
+									<span class="trn">idr</span> 120.000,00
+								</h4>
 								<p>Homegirl dress</p>
 								<!-- Add to Cart -->
-								<a href="#" class="add-to-cart-btn">ADD TO CART</a>
+								<a href="cart.html" class="add-to-cart-btn">
+									<span class="trn">add_to_cart</span>
+								</a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-sm-6 product">
@@ -169,10 +212,14 @@
 								</div>
 							</div>
 							<div class="product-description">
-								<h4 class="product-price">IDR 120.000,00</h4>
+								<h4 class="product-price">
+									<span class="trn">idr</span> 120.000,00
+								</h4>
 								<p>Homegirl dress</p>
 								<!-- Add to Cart -->
-								<a href="#" class="add-to-cart-btn">ADD TO CART </a>
+								<a href="cart.html" class="add-to-cart-btn">
+									<span class="trn">add_to_cart</span>
+								</a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-sm-6 product">
@@ -185,10 +232,14 @@
 								</div>
 							</div>
 							<div class="product-description">
-								<h4 class="product-price">IDR 120.000,00</h4>
+								<h4 class="product-price">
+									<span class="trn">idr</span> 120.000,00
+								</h4>
 								<p>Homegirl dress</p>
 								<!-- Add to Cart -->
-								<a href="#" class="add-to-cart-btn">ADD TO CART</a>
+								<a href="cart.html" class="add-to-cart-btn">
+									<span class="trn">add_to_cart</span>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -209,9 +260,17 @@
 				</div>
 				<div class="col-md-3">
 					<ul class="vertical-link">
-						<li><a href="#">About</a></li>
+						<li>
+							<a href="#">
+							<span class="trn">about</span>
+							</a>
+						</li>
 						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Contact</a></li>
+						<li>
+							<a href="#">
+								<span class="trn">contact</span>
+							</a>
+						</li>
 						<li><a href="#">Privacy Policy</a></li>
 					</ul>
 				</div>
@@ -243,5 +302,6 @@
 		</div>
 	</footer>
 </body>
+	<script src="assets/js/translate.js"></script>
 
 </html>

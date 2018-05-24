@@ -1,5 +1,5 @@
 * {
-	font-family: 'open sans';
+	font-family: 'open sans', 'segoe ui';
 }
 
 .form-no-border {
@@ -12,7 +12,7 @@
 
 .header a {
 	color: #fff;
-	font-family: "open sans";
+	font-family: "open sans", "segoe ui";
 	font-size: 15px;
 }
 
@@ -31,6 +31,10 @@
 
 .nav-item {
 	margin: 0 10px;
+}
+
+.nav-item .input-group {
+	margin-top: 5px;
 }
 
 .navbar-toggler {
@@ -292,7 +296,7 @@ img {
 }
 
 .filter h5 {
-	font-family: 'open sans';
+	font-family: 'open sans', 'Segoe UI';
 	font-weight: 500;
 	font-size: 20px;
 	margin: 30px 10px;
@@ -432,6 +436,10 @@ img {
 	bottom: 0;
 }
 
+.line-with-plus {
+	min-height: 40px;
+}
+
 .line-with-plus hr{
 	width: 90%;
 	float: left;
@@ -441,18 +449,18 @@ img {
 	color: #a7a7a7;
 	font-size: 25px;
 	padding: 5px;
-	line-height: 31px;
+	line-height: 26px;
 }
 
 @media (max-width: 1024px) {
 	.h-desc{
-		height: 115px;
+/*		height: 115px;*/
 	}
 }
 
 @media (max-width:768px) {
 	.line-with-plus hr{
-		width: 88%;
+		width: 85%;
 	}
 }
 

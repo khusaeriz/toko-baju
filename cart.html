@@ -17,6 +17,7 @@
 	<!-- js -->
 	<script src="dist/js/jquery.min.js" charset="utf-8"></script>
 	<script src="dist/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+	<script src="dist/js/jquery.translate.js"></script>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
 			<div class="row">
 				<div class="col-12 d-md-flex justify-content-between">
 					<div class="logo-area text-center">
-						<a href="index.html">
+						<a href="#">
 							<h3>Ridia</h3><span>Clothes Shop</span></a>
 					</div>
 					<div class="main-menu">
@@ -37,9 +38,21 @@
 
 							<div class="navbar-collapse align-items-start collapse" id="karl-navbar" style="">
 								<ul class="navbar-nav animated" id="nav">
-									<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-									<li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
-									<li class="nav-item"><a class="nav-link" href="#"><i class='fa fa-shopping-cart'></i></a></li>
+									<li class="nav-item active">
+										<a class="nav-link" href="index.html">
+											<span class="trn">home</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="shop.html">
+											<span class="trn">shop</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="cart.html">
+											<i class='fa fa-shopping-cart'></i>
+										</a>
+									</li>
 									<li class="nav-item">
 										<div class="input-group">
 											<input type="text" class="form-control form-no-border" placeholder="Find Clothes..." aria-label="Input group example" aria-describedby="btnGroupAddon">
@@ -61,7 +74,9 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="content-title text-center">
-						<h3>List Product in Cart</h3>
+						<h3>
+							<span class="trn">list_product_in_cart</span>
+						</h3>
 					</div>
 				</div>
 				<div class="col-md-8">
@@ -74,12 +89,14 @@
 								<h4><a href="details.html">Yellow Cocktail Dress</a></h4>
 							</div>
 							<div class="product-price">
-								IDR 100.000,00
+							<span class="trn">idr</span> 100.000,00
 							</div>
 							<div class="product-action absolute on-bottom">
 								<form action="" class="row">
 									<div class="col-6">
-										<label>Select Size : </label>
+										<label>
+											<span class="trn">select_size</span> :
+										</label>
 										<select>
 										<option>M</option>
 										<option>S</option>
@@ -88,7 +105,9 @@
 									</select>
 									</div>
 									<div class="col-6">
-										<label>Quantity :</label>
+										<label>
+											<span class="trn">quantity</span> :
+										</label>
 										<input type="number" value="1" min="1" max="10">
 									</div>
 								</form>
@@ -104,12 +123,14 @@
 								<h4><a href="details.html">Yellow Cocktail Dress</a></h4>
 							</div>
 							<div class="product-price">
-								IDR 100.000,00
+								<span class="trn">idr</span> 100.000,00
 							</div>
 							<div class="product-action absolute on-bottom">
 								<form action="" class="row">
 									<div class="col-6">
-										<label>Select Size : </label>
+										<label>
+											<span class="trn">select_size</span> :
+										</label>
 										<select>
 										<option>M</option>
 										<option>S</option>
@@ -118,7 +139,9 @@
 									</select>
 									</div>
 									<div class="col-6">
-										<label>Quantity :</label>
+										<label>
+											<span class="trn">quantity</span> :
+										</label>
 										<input type="number" value="1" min="1" max="10">
 									</div>
 								</form>
@@ -129,16 +152,24 @@
 				<div class="col-md-4">
 					<div class="product-purcase">
 						<h6>Subtotal : </h6>
-						<div class="product-price">IDR 100.000,00</div>
-						<div class="product-price">IDR 100.000,00</div>
+						<div class="product-price">
+								<span class="trn">idr</span> 100.000,00
+						</div>
+						<div class="product-price">
+								<span class="trn">idr</span> 100.000,00
+						</div>
 						<div class="line-with-plus">
 							<hr/>
 							<span>+</span>
 						</div>
 						<h6>Total : </h6>
-						<div class="product-price">IDR 200.000,00</div>
+						<div class="product-price">
+								<span class="trn">idr</span>  200.000,00
+						</div>
 						<br/>
-						<a href="#" class="add-to-cart-btn">Checkout</a>
+						<a href="#" class="add-to-cart-btn">
+							<span class="trn">checkout</span>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -157,9 +188,17 @@
 				</div>
 				<div class="col-md-3">
 					<ul class="vertical-link">
-						<li><a href="#">About</a></li>
+						<li>
+							<a href="#">
+							<span class="trn">about</span>
+							</a>
+						</li>
 						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Contact</a></li>
+						<li>
+							<a href="#">
+								<span class="trn">contact</span>
+							</a>
+						</li>
 						<li><a href="#">Privacy Policy</a></li>
 					</ul>
 				</div>
@@ -191,5 +230,6 @@
 		</div>
 	</footer>
 </body>
+	<script src="assets/js/translate.js"></script>
 
 </html>
