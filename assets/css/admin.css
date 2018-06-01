@@ -106,3 +106,44 @@ a:hover {
 	background: rgba(0,9,0,0.3);
 	color: #fff;
 }
+
+.small-box {
+	padding: 10px;
+	overflow: hidden;
+}
+
+.small-box .inner {
+    width: 60%;
+    float: left;
+    color: #fff;
+    font-family: 'open sans', 'segoe ui', sans-serif;
+    font-weight: bold;
+}
+
+.small-box .icon {
+    float: right;
+    width: 40%;
+    height: 90px;
+    font-size: 80px;
+    text-align: center;
+    color: rgba(0,0,0,0.25);
+}
+
+.small-box-footer {
+	width: 100%;
+	display: block;
+	color: #eee;
+	float: left;
+}
+
+.small-box-footer:hover {
+	color: #fff;
+}
+
+.bg-aqua {
+	background-color: #00c0ef !important
+}
+
+.bg-yellow {
+	background-color: #f39c12 !important
+}

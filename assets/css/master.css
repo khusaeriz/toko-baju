@@ -197,6 +197,15 @@
 	font-size: 20px;
 }
 
+.product-name {
+	font-weight: bold;
+  color: #333;
+}
+
+.product-name:hover {
+	color: #777
+}
+
 .product-action input[type="number"] {
 	border: 1px solid #a9a9a9;
 	padding: 3px 5px;
@@ -451,6 +460,19 @@ img {
 	padding: 5px;
 	line-height: 26px;
 }
+
+
+.badge-cart {
+	font-size: 11px;
+	position: absolute;
+	top: 3px;
+	left: 20px;
+	background: #fff;
+	width: 15px; border-radius: 15px;
+	color: #e74c3c;
+	text-align: center;
+}
+
 
 @media (max-width: 1024px) {
 	.h-desc{
