@@ -10,7 +10,7 @@
 <body>
 <div class="side-container float-left">
 	<div class="logo">
-		<h2><a href="#">LOGOOOOO</a></h2>
+		<h2><a href="#">Ridia</a></h2>
 	</div>
 	<div class="menu">
 		<ul class="list-unstyled">
@@ -30,6 +30,12 @@
 				<a href="?page=pemesanan">
 					<i class="fa fa-angle-right "></i>
 					Pemesanan
+				</a>
+			</li>
+			<li>
+				<a href="?page=pesan">
+					<i class="fa fa-angle-right "></i>
+					Pesan
 				</a>
 			</li>
 			<li>
