@@ -4,8 +4,8 @@ var dict = {
 		"id": "Beranda"
 	},
 	"shop": {
-		"en": "Shop",
-		"id": "Toko"
+		"en": "Catalog",
+		"id": "Katalog"
 	},
 	"welcome": {
 		"en": "Welcome To",

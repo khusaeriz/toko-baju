@@ -17,7 +17,7 @@
 			<li>
 				<a href="?page=home">
 					<i class="fa fa-angle-right "></i>
-					Beranda
+					Dashboard
 				</a>
 			</li>
 			<li>
@@ -27,7 +27,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="?page=pemesanan">
+				<a href="?page=pesanan">
 					<i class="fa fa-angle-right "></i>
 					Pemesanan
 				</a>
@@ -39,7 +39,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="login.html">
+				<a href="admin">
 					<i class="fa fa-angle-right "></i>
 					Keluar
 				</a>

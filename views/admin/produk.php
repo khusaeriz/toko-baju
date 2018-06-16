@@ -18,7 +18,7 @@
 				<form action="/action_page.php">
 					<div class="form-group">
 						<label for="nama">Nama Produk:</label>
-						<input type="email" class="form-control" id="nama">
+						<input type="text" class="form-control" id="nama">
 					</div>
 					<div class="form-group">
 						<label for="pwd">Jumlah:</label>
@@ -42,7 +42,7 @@
 			<!-- Modal footer -->
 			<div class="modal-footer">
 				<a href="" class="btn btn-primary">Simpan</a>
-				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
 			</div>
 
 		</div>
@@ -65,7 +65,7 @@
 				<form action="/action_page.php">
 					<div class="form-group">
 						<label for="nama">Nama Produk:</label>
-						<input type="email" class="form-control" id="nama" value="Baju Bagus">
+						<input type="text" class="form-control" id="nama" value="Baju Bagus">
 					</div>
 					<div class="form-group">
 						<label for="pwd">Jumlah:</label>
@@ -125,9 +125,11 @@
 					<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#edit-product" style="color:#fff">
 						<i class="fa fa-edit"></i>
 					</button>
-					<a href="#" class="btn btn-primary btn-sm color-white" title="Edit">
+<!--
+					<a href="details.html" class="btn btn-primary btn-sm color-white" title="Edit">
 						<i class="fa fa-eye"></i>
 					</a>
+-->
 				</th>
 			</tr>
 			<?php } ?>

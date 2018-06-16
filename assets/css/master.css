@@ -146,7 +146,6 @@
 	background: rgba(0, 0, 0, 0.4);
 	opacity: 0;
 	transition: .3s;
-	padding: 40% 0;
 	text-align: center
 }
 
@@ -154,6 +153,13 @@
 	font-size: 80px;
 	color: #fff;
 	transition: .3s;
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.view-btn i{
+	padding: 50% 0;
 }
 
 .view-btn:hover {
@@ -199,7 +205,7 @@
 
 .product-name {
 	font-weight: bold;
-  color: #333;
+	color: #333;
 }
 
 .product-name:hover {
@@ -449,12 +455,12 @@ img {
 	min-height: 40px;
 }
 
-.line-with-plus hr{
+.line-with-plus hr {
 	width: 90%;
 	float: left;
 }
 
-.line-with-plus span{
+.line-with-plus span {
 	color: #a7a7a7;
 	font-size: 25px;
 	padding: 5px;
@@ -468,21 +474,26 @@ img {
 	top: 3px;
 	left: 20px;
 	background: #fff;
-	width: 15px; border-radius: 15px;
+	width: 15px;
+	border-radius: 15px;
 	color: #e74c3c;
 	text-align: center;
 }
 
 
 @media (max-width: 1024px) {
-	.h-desc{
-/*		height: 115px;*/
+	.h-desc {
+		/*		height: 115px;*/
 	}
 }
 
 @media (max-width:768px) {
-	.line-with-plus hr{
+	.line-with-plus hr {
 		width: 85%;
+	}
+
+	.input-group input {
+		width: 120px !important;
 	}
 }
 
