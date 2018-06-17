@@ -21,6 +21,10 @@
 						<input type="text" class="form-control" id="nama">
 					</div>
 					<div class="form-group">
+						<label for="pwd">Kategori:</label>
+						<input type="text" class="form-control" id="kat">
+					</div>
+					<div class="form-group">
 						<label for="pwd">Jumlah:</label>
 						<input type="number" class="form-control" id="pwd">
 					</div>

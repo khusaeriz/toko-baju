@@ -1,3 +1,6 @@
+<?php
+include "../system/bootstrap.php";
+?>
 <!DOCTYPE html>
 <html lang="">
 
@@ -6,9 +9,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="dist/bootstrap/css/bootstrap.min.css">
-	<link href="assets/css/admin.css" rel="stylesheet" type="text/css" />
-	<link href="dist/font-awesome/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('dist/bootstrap/css/bootstrap.min.css'); ?>">
+	<link href="<?php echo base_url('assets/css/admin.css'); ?>" rel="stylesheet" type="text/css" />
+	<link href="<?php echo base_url('dist/font-awesome/css/fontawesome-all.css'); ?>" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -24,17 +27,17 @@
 					<a href="index.html" class="color-white"><i class="fa fa-arrow-left"></i> Kembali ke halaman depan</a>
 				</div>
 				<div class="col-lg-5">
-					<form action="admin.php">
+					<form method="post" action="<?php echo base_url('system/action.php?type=login'); ?>">
 						<div class="form-group">
 							<label class="color-white"><b>Username :</b></label>
-							<input type="text" class="form-control almost-transparent color-white">
+							<input type="text" name="username" class="form-control almost-transparent color-white">
 						</div>
 						<div class="form-group">
 							<label class="color-white"><b>Password :</b></label>
-							<input type="text" class="form-control almost-transparent color-white">
+							<input type="password" name="password" class="form-control almost-transparent color-white">
 						</div>
 						<div class="form-group">
-							<button class="btn btn-primary">Login</button>
+							<button id="login-button" class="btn btn-primary">Login</button>
 						</div>
 					</form>
 				</div>

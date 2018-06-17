@@ -1,3 +1,11 @@
+-- create table users
+
+create table users(
+	username varchar(20) not null,
+	password varchar(50) not null,
+	last_login TIMESTAMP default CURRENT_TIMESTAMP(),
+	primary key(username)
+);
 
 -- create table produk
 

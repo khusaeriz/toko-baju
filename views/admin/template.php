@@ -39,7 +39,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="admin">
+				<a href="<?php echo base_url('system/action.php?type=logout'); ?>">
 					<i class="fa fa-angle-right "></i>
 					Keluar
 				</a>
