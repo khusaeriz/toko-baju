@@ -55,7 +55,7 @@ switch ($_GET['type']) {
 			$_SESSION['user'] = $result;
 			$app->update('users', ['username' => $username], ['last_login' => date('Y-m-d h:i:s')]);
 		} else {
-			set_alert(response('false', 'login gagal'));
+			set_alert(response(false, 'login gagal'));
 		}
 
 		redirect('admin.php');

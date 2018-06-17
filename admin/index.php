@@ -27,6 +27,11 @@ include "../system/bootstrap.php";
 					<a href="index.html" class="color-white"><i class="fa fa-arrow-left"></i> Kembali ke halaman depan</a>
 				</div>
 				<div class="col-lg-5">
+					<?php
+						if (has_alert()) {
+							display_alert();
+						}
+					?>
 					<form method="post" action="<?php echo base_url('system/action.php?type=login'); ?>">
 						<div class="form-group">
 							<label class="color-white"><b>Username :</b></label>

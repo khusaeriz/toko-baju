@@ -11,7 +11,7 @@ function base_url($uri = '') {
 **/
 function response($success, $message, $data = null) {
 	$response = [
-		'success' => $success,
+		'success' => (bool)$success,
 		'message' => $message,
 		'data' => $data
 	];
@@ -60,10 +60,10 @@ function has_alert() {
 function display_alert(){
 	echo "<div class='alert'>";
 
-	if ($_SESSION['alert']['success']) {
-		echo "<div class='alert alert-success'>"
+	if ($_SESSION['alert']['success'] == true) {
+		echo "<div class='alert alert-success'>";
 	} else {
-		echo "<div class='alert alert-danger'>"
+		echo "<div class='alert alert-danger'>";
 	}
 
 	echo "<div class='alert alert-content'>";
