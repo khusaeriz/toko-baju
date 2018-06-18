@@ -19,14 +19,6 @@ create table produk(
 	primary key(id_produk)
 );
 
--- create table kategori
-
-create table kategori_master(
-	id_kategori int(5) not null auto_increment,
-	nama_kategori varchar(30),
-	primary key(id_kategori)
-);
-
 -- create table pesanan
 
 create table pesanan(

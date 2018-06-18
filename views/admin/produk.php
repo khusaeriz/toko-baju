@@ -15,7 +15,7 @@
 
 			<!-- Modal body -->
 			<div class="modal-body">
-				<form action="/action_page.php">
+				<form action="/action_page.php" method="post" id="produk-insert-form">
 					<div class="form-group">
 						<label for="nama">Nama Produk:</label>
 						<input type="text" class="form-control" id="nama">
@@ -45,13 +45,15 @@
 
 			<!-- Modal footer -->
 			<div class="modal-footer">
-				<a href="" class="btn btn-primary">Simpan</a>
+				<button id="button-insert" class="btn btn-primary">Simpan</button>
 				<button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
 			</div>
 
 		</div>
 	</div>
 </div>
+
+<!-- END -->
 
 <!-- Edit Produk -->
 <div class="modal fade bd-example-modal-lg" tabindex="-1" id="edit-product" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -101,6 +103,8 @@
 	</div>
 </div>
 
+<!-- END -->
+
 <div class="table-container">
 	<div class="table-action text-right">
 		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-product">Tambah Produk</button>
@@ -140,3 +144,7 @@
 		</tbody>
 	</table>
 </div>
+
+<script>
+
+</script>
