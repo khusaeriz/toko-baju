@@ -2,6 +2,7 @@
 
 define("FRONT_VIEW", 'views/front/');
 define("ADMIN_VIEW", 'views/admin/');
+define("CLASS_PATH", 'system/class/');
 
 date_default_timezone_set('Asia/Jakarta');
 
