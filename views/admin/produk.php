@@ -1,7 +1,3 @@
-<?php
-	include CLASS_PATH.'kategori.php';
-?>
-
 <div class="content-title">
 	<h4>Pengelolaan Produk</h4>
 </div>
@@ -21,26 +17,12 @@
 			<div class="modal-body">
 				<form action="/action_page.php" method="post" id="produk-insert-form">
 					<div class="form-group">
-						<label for="nama">Nama Produk: </label>
+						<label for="nama">Nama Produk:</label>
 						<input type="text" class="form-control" id="nama">
 					</div>
-					<div class="form-group row">
-						<label for="pwd" class="col-3 col-form-label">Kategori:</label>
-						<div class="form-check-inline col-2">
-							<label class="form-check-label">
-								<input type="checkbox" class="form-check-input" name="kat[]" value="1">Wanita
-							</label>
-						</div>
-						<div class="form-check-inline col-2">
-							<label class="form-check-label">
-								<input type="checkbox" class="form-check-input" name="kat[]" value="2">Pria
-							</label>
-						</div>
-						<div class="form-check-inline col-2">
-							<label class="form-check-label">
-								<input type="checkbox" class="form-check-input" name="kat[]" value="3">Anak-anak
-							</label>
-						</div>
+					<div class="form-group">
+						<label for="pwd">Kategori:</label>
+						<input type="text" class="form-control" id="kat">
 					</div>
 					<div class="form-group">
 						<label for="pwd">Jumlah:</label>
